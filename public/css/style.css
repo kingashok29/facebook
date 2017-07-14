@@ -1,0 +1,30 @@
+.navbar {
+  width:100%;
+  margin-bottom: 2%;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  line-height:20px;
+  /* Set the fixed height of the footer here */
+  height: 140px;
+  background-color: #0F81C7;
+}
+.footer p {
+  margin:2%;
+}
+.footer-li a{
+  color: white;
+  list-style-type: none;
+  text-decoration: underline;
+}
